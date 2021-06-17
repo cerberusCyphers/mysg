@@ -1,0 +1,23 @@
+{
+  "name": "mysg_artshop",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerberusCyphers/mysg.git"
+  },
+  "author": "Craig Colwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerberusCyphers/mysg/issues"
+  },
+  "homepage": "https://github.com/cerberusCyphers/mysg#readme",
+  "description": "",
+
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
