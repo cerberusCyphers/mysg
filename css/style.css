@@ -57,6 +57,12 @@ body {
     letter-spacing: 0.8rem;
     animation: moveInLeft 1s ease-out; }
 
+.heading-secondary {
+  color: #bb4fd1;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -96,7 +102,8 @@ body {
   font-size: 1.6rem;
   position: relative;
   background-color: #bb4fd1;
-  border-radius: 2rem; }
+  border-radius: 2rem;
+  transition: all 0.2s; }
 
 .btn:hover {
   transform: translateY(-3px);
@@ -113,7 +120,7 @@ body {
 .btn-main {
   color: whitesmoke;
   top: 40%;
-  left: 27%;
+  left: 35%;
   transform: translate(-50%, -50%); }
 
 .header {
@@ -135,3 +142,16 @@ body {
   font-size: 1.6rem;
   list-style: none;
   opacity: 0; }
+
+.section-about {
+  background-color: #dadada; }
+  .section-about__content {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    height: 10rem; }
+
+.section-items {
+  background-image: linear-gradient(to right bottom, #d577e7, #7a1b8d);
+  color: whitesmoke; }
+  .section-items h2 {
+    color: whitesmoke; }

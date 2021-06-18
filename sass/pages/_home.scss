@@ -1,0 +1,22 @@
+.section-about {
+	background-color: $color-grey-light;
+
+	&__content {
+		font-size: $default-font-size;
+		line-height: 2rem;
+		height: 10rem;
+	}
+}
+
+.section-items {
+	background-image: linear-gradient(
+		to right bottom,
+		$color-primary-light,
+		$color-primary-dark
+	);
+	color: $color-white;
+
+	& h2 {
+		color: $color-white;
+	}
+}
