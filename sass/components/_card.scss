@@ -1,5 +1,25 @@
 .card {
-	height: 10rem;
-	width: 5rem;
+	height: 50rem;
+	width: 35rem;
 	border-radius: 3px;
+	padding: 1rem;
+	box-shadow: 0.5rem 0.8rem rgba($color-black, 0.15);
+
+	&__item--img {
+		width: 100%;
+		height: auto;
+	}
+	&__item--info {
+		padding: $default-padding-text;
+		font-size: 2rem;
+		text-align: center;
+	}
+	&__item--price {
+		padding: $default-padding-text;
+		font-size: 3rem;
+	}
+
+	&__1 {
+		background-color: $color-tertiary-light;
+	}
 }

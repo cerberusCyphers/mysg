@@ -40,11 +40,11 @@ body {
   box-sizing: border-box; }
 
 .heading-primary {
-  color: #7a1b8d;
+  color: #a40dd6;
   text-transform: uppercase; }
   .heading-primary--main {
     display: block;
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: 600;
     letter-spacing: 2rem;
     animation-name: moveInRight;
@@ -52,13 +52,13 @@ body {
     animation: moveInRight 1s ease-out; }
   .heading-primary--sub {
     display: block;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 0.8rem;
     animation: moveInLeft 1s ease-out; }
 
 .heading-secondary {
-  color: #bb4fd1;
+  color: #a04bbd;
   font-size: 2.5rem;
   font-weight: 500;
   text-transform: uppercase; }
@@ -98,10 +98,10 @@ body {
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.25rem 2.5rem;
-  font-size: 1.6rem;
+  padding: 2rem 3.5rem;
+  font-size: 2.5rem;
   position: relative;
-  background-color: #bb4fd1;
+  background-color: #a04bbd;
   border-radius: 2rem;
   transition: all 0.2s; }
 
@@ -119,9 +119,28 @@ body {
 
 .btn-main {
   color: whitesmoke;
-  top: 40%;
-  left: 35%;
+  top: 50%;
+  left: 40%;
   transform: translate(-50%, -50%); }
+
+.card {
+  height: 50rem;
+  width: 35rem;
+  border-radius: 3px;
+  padding: 1rem;
+  box-shadow: 0.5rem 0.8rem rgba(0, 0, 0, 0.15); }
+  .card__item--img {
+    width: 100%;
+    height: auto; }
+  .card__item--info {
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center; }
+  .card__item--price {
+    padding: 1.5rem;
+    font-size: 3rem; }
+  .card__1 {
+    background-color: #1b85a8; }
 
 .header {
   height: 95vh; }
@@ -151,7 +170,7 @@ body {
     height: 10rem; }
 
 .section-items {
-  background-image: linear-gradient(to right bottom, #d577e7, #7a1b8d);
+  background-image: linear-gradient(to right bottom, #e5adf7, #a40dd6);
   color: whitesmoke; }
   .section-items h2 {
     color: whitesmoke; }

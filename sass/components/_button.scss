@@ -4,8 +4,8 @@
 	&:visited {
 		text-transform: uppercase;
 		text-decoration: none;
-		padding: 1.25rem 2.5rem;
-		font-size: $default-font-size;
+		padding: 2rem 3.5rem;
+		font-size: 2.5rem;
 		position: relative;
 		background-color: $color-primary-medium;
 		border-radius: 2rem;
@@ -31,8 +31,8 @@
 
 	&-main {
 		color: $color-white;
-		top: 40%;
-		left: 35%;
+		top: 50%;
+		left: 40%;
 		transform: translate(-50%, -50%);
 	}
 }

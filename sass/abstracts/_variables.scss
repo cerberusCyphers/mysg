@@ -1,14 +1,14 @@
-$color-primary-light: rgb(213, 119, 231);
-$color-primary-medium: rgb(187, 79, 209);
-$color-primary-dark: rgb(122, 27, 141);
+$color-primary-light: rgb(229, 173, 247);
+$color-primary-medium: rgb(160, 75, 189);
+$color-primary-dark: rgb(164, 13, 214);
 
-// $color-secondary-light
-// $color-secondary-medium
-// $color-secondary-dark
+$color-secondary-light: rgb(146, 245, 113);
+$color-secondary-medium: rgb(108, 187, 81);
+$color-secondary-dark: rgb(83, 153, 60);
 
-// $color-tertiary-light
-// $color-tertiary-medium
-// $color-tertiary-dark
+$color-tertiary-light: rgb(27, 133, 168);
+$color-tertiary-medium: rgb(19, 95, 120);
+$color-tertiary-dark: rgb(16, 78, 99);
 
 $color-grey-light: rgb(218, 218, 218);
 $color-grey-medium: rgb(170, 170, 170);
@@ -18,3 +18,5 @@ $color-white: whitesmoke;
 $color-black: black;
 
 $default-font-size: 1.6rem;
+
+$default-padding-text: 1.5rem;
