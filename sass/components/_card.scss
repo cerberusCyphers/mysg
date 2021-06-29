@@ -1,9 +1,23 @@
+.row {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .card {
 	height: 50rem;
 	width: 35rem;
-	border-radius: 3px;
+	border-radius: 10px;
 	padding: 1rem;
+	margin-bottom: 4rem;
 	box-shadow: 0.5rem 0.8rem rgba($color-black, 0.15);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 0.2s;
+
+	&:hover {
+		transform: scale(1.1);
+	}
 
 	&__item--img {
 		width: 100%;
@@ -21,5 +35,11 @@
 
 	&__1 {
 		background-color: $color-tertiary-light;
+	}
+	&__2 {
+		background-color: $color-primary-dark;
+	}
+	&__3 {
+		background-color: $color-secondary-dark;
 	}
 }
