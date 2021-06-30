@@ -17,6 +17,8 @@
 
 	&:hover {
 		transform: scale(1.1);
+		box-shadow: 0.9rem 1.2rem rgba($color-black, 0.15);
+		cursor: pointer;
 	}
 
 	&__item--img {
@@ -36,10 +38,16 @@
 	&__1 {
 		background-color: $color-tertiary-light;
 	}
+
 	&__2 {
 		background-color: $color-primary-dark;
 	}
+
 	&__3 {
 		background-color: $color-secondary-dark;
+	}
+
+	& img {
+		clip-path: polygon(0 0, 100% 0%, 100% 91%, 0% 100%);
 	}
 }
