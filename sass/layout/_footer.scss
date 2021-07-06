@@ -1,0 +1,19 @@
+.footer {
+	background-color: $color-grey-dark;
+	height: 15rem;
+	font-size: $default-font-size;
+	color: $color-white;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 3rem;
+	align-items: center;
+
+	&__copy {
+		grid-column: 2 / 3;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: $color-grey-light;
+	}
+}

@@ -1,0 +1,16 @@
+.section-about {
+	&__content {
+		font-size: $default-font-size;
+		line-height: 2.5rem;
+		height: 10rem;
+		max-width: 50rem;
+		padding: 10rem;
+	}
+
+	&__img {
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+		border-radius: 0.3rem;
+	}
+}

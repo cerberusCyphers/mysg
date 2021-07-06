@@ -1,0 +1,39 @@
+.social {
+	&--text {
+		font-size: $large-font-size;
+		line-height: 5rem;
+		height: 15rem;
+		max-width: 120rem;
+		grid-column: 2 / 3;
+		padding: 5rem 10rem;
+	}
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem 0;
+	&--icon {
+		width: 4rem;
+		height: auto;
+
+		&-1 {
+			fill: #1877f2;
+		}
+		&-2 {
+			fill: #c32aa3;
+		}
+		&-3 {
+			fill: #69c9d0;
+		}
+	}
+}
+
+.link {
+	cursor: pointer;
+	text-decoration: none;
+	color: $color-grey-light;
+	font-size: 1.4rem;
+	padding: 3rem;
+}
