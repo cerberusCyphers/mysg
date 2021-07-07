@@ -5,6 +5,10 @@
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr 25vh;
 
+	@media only screen and (max-width: $bp-xxs) {
+		grid-template-columns: 25% 50% 25%;
+	}
+
 	&__text-box {
 		position: absolute;
 		top: 40%;
