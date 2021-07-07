@@ -5,13 +5,10 @@
 		$color-primary-dark
 	);
 	color: $color-white;
-	max-height: 50rem;
-	display: flex;
-	justify-content: space-between;
-
-	& h2 {
-		padding: $default-padding-heading;
-	}
+	max-height: 70rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 10% 1fr;
 }
 
 .section-items {
@@ -19,7 +16,6 @@
 	color: $color-white;
 
 	& h2 {
-		color: $color-grey-dark;
 		padding: $default-padding-heading;
 	}
 }

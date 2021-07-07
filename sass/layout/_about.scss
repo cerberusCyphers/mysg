@@ -1,16 +1,22 @@
 .section-about {
+	&__heading {
+		color: $color-grey-light;
+		padding: $default-padding-heading;
+	}
 	&__content {
 		font-size: $default-font-size;
 		line-height: 2.5rem;
-		height: 10rem;
+		height: 50rem;
 		max-width: 50rem;
 		padding: 10rem;
+		grid-row: 2 / 3;
 	}
 
 	&__img {
-		width: 100%;
+		width: 70%;
 		height: auto;
-		object-fit: contain;
-		border-radius: 0.3rem;
+		clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+		margin: 3rem 0;
+		grid-row: 2 / 3;
 	}
 }
