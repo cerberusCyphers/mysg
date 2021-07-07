@@ -10,6 +10,10 @@
 		background-color: $color-primary-medium;
 		border-radius: 2rem;
 		transition: all 0.2s;
+
+		@media only screen and (max-width: $bp-xs) {
+			font-size: 2rem;
+		}
 	}
 
 	&:hover {
@@ -36,5 +40,10 @@
 		grid-column: 2 / 3;
 		grid-row: 2 / 3;
 		justify-self: center;
+
+		@media only screen and (max-width: $bp-xs) {
+			height: 6rem;
+			width: 20rem;
+		}
 	}
 }

@@ -2,6 +2,11 @@
 	&__heading {
 		color: $color-grey-light;
 		padding: $default-padding-heading;
+
+		@media only screen and (max-width: $bp-md) {
+			padding-left: 0;
+			justify-self: center;
+		}
 	}
 	&__content {
 		font-size: $default-font-size;
@@ -13,6 +18,15 @@
 
 		@media only screen and (max-width: $bp-md) {
 			font-size: 1.4rem;
+			height: 25rem;
+			justify-self: center;
+		}
+
+		@media only screen and (max-width: $bp-sm) {
+			font-size: 1.2rem;
+			height: 15rem;
+			max-width: 90%;
+			padding: 3rem;
 		}
 	}
 
@@ -25,6 +39,13 @@
 
 		@media only screen and (min-width: $bp-xxl) {
 			width: 50%;
+		}
+
+		@media only screen and (max-width: $bp-md) {
+			width: 30%;
+			clip-path: polygon(20% 0%, 0% 50%, 20% 100%, 80% 100%, 100% 50%, 80% 0%);
+			grid-row: 3 / 4;
+			justify-self: center;
 		}
 	}
 }

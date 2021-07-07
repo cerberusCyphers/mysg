@@ -9,6 +9,11 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 10% 1fr;
+
+	@media only screen and (max-width: $bp-md) {
+		grid-template-columns: 100%;
+		grid-template-rows: 10% repeat(2, 1fr);
+	}
 }
 
 .section-items {
@@ -17,6 +22,12 @@
 
 	& h2 {
 		padding: $default-padding-heading;
+
+		@media only screen and (max-width: $bp-md) {
+			display: grid;
+			justify-content: center;
+			padding: 3rem 0;
+		}
 	}
 }
 

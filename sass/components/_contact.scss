@@ -9,6 +9,18 @@
 		height: 15rem;
 		max-width: 120rem;
 		padding: 5rem 10rem;
+
+		@media only screen and (max-width: $bp-md) {
+			font-size: 1.6rem;
+			padding: 4rem 8rem;
+		}
+
+		@media only screen and (max-width: $bp-xs) {
+			font-size: 1.4rem;
+			line-height: 3rem;
+			width: 90%;
+			padding: 3rem 4rem;
+		}
 	}
 }
 
@@ -27,6 +39,10 @@
 	&--icon {
 		width: 5rem;
 		height: auto;
+
+		@media only screen and (max-width: $bp-sm) {
+			width: 4rem;
+		}
 
 		&-1 {
 			fill: #1877f2;
