@@ -10,6 +10,10 @@
 		max-width: 50rem;
 		padding: 10rem;
 		grid-row: 2 / 3;
+
+		@media only screen and (max-width: $bp-md) {
+			font-size: 1.4rem;
+		}
 	}
 
 	&__img {
@@ -18,5 +22,9 @@
 		clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 		margin: 3rem 0;
 		grid-row: 2 / 3;
+
+		@media only screen and (min-width: $bp-xxl) {
+			width: 50%;
+		}
 	}
 }

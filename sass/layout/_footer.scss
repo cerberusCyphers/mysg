@@ -6,14 +6,16 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 3rem;
+	justify-content: center;
 	align-items: center;
 
 	&__copy {
 		grid-column: 2 / 3;
+		justify-self: center;
 	}
 
 	&__link {
 		text-decoration: none;
-		color: $color-grey-light;
+		color: $color-tertiary-medium;
 	}
 }

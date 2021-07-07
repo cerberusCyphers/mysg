@@ -19,6 +19,16 @@
 	align-items: center;
 	transition: all 0.2s;
 
+	@media only screen and (max-width: $bp-xl) {
+		height: 45rem;
+		width: 25rem;
+	}
+	@media only screen and (max-width: $bp-md) {
+		height: 50rem;
+		width: 30rem;
+		grid-column: 2 / 3;
+	}
+
 	&:hover {
 		transform: scale(1.1);
 		box-shadow: 0.9rem 1.2rem rgba($color-black, 0.15);
@@ -45,10 +55,16 @@
 
 	&__2 {
 		background-color: $color-primary-dark;
+		@media only screen and (max-width: $bp-md) {
+			grid-row: 2 / 3;
+		}
 	}
 
 	&__3 {
 		background-color: $color-secondary-dark;
+		@media only screen and (max-width: $bp-md) {
+			grid-row: 3 / 4;
+		}
 	}
 
 	& img {

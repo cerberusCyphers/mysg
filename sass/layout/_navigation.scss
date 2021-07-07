@@ -1,6 +1,12 @@
 .nav {
-	font-size: 1.6rem;
-	list-style: none;
+	font-size: $large-font-size;
+	grid-column: 3 / -1;
+	justify-self: center;
 
 	opacity: 0;
+
+	&-link {
+		list-style: none;
+		color: $color-secondary-dark;
+	}
 }

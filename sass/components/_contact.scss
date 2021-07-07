@@ -1,10 +1,13 @@
 .social {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 	&--text {
 		font-size: $large-font-size;
 		line-height: 5rem;
 		height: 15rem;
 		max-width: 120rem;
-		grid-column: 2 / 3;
 		padding: 5rem 10rem;
 	}
 }
@@ -14,8 +17,15 @@
 	justify-content: center;
 	align-items: center;
 	padding: 3rem 0;
+
+	&__box {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
 	&--icon {
-		width: 4rem;
+		width: 5rem;
 		height: auto;
 
 		&-1 {
@@ -28,12 +38,12 @@
 			fill: #69c9d0;
 		}
 	}
-}
 
-.link {
-	cursor: pointer;
-	text-decoration: none;
-	color: $color-grey-light;
-	font-size: 1.4rem;
-	padding: 3rem;
+	&--link {
+		cursor: pointer;
+		text-decoration: none;
+		color: $color-grey-light;
+		font-size: 1.4rem;
+		padding: 0 3rem;
+	}
 }
