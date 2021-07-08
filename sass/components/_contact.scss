@@ -34,6 +34,18 @@
 		display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
+
+		&:not(:last-child) {
+			margin-right: 5rem;
+
+			@media only screen and (max-width: $bp-md) {
+				margin-right: 3rem;
+			}
+
+			@media only screen and (max-width: $bp-sm) {
+				margin-right: 1.5rem;
+			}
+		}
 	}
 
 	&--icon {

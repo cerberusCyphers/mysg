@@ -239,6 +239,14 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center; }
+    .social-media__box:not(:last-child) {
+      margin-right: 5rem; }
+      @media only screen and (max-width: 56.25em) {
+        .social-media__box:not(:last-child) {
+          margin-right: 3rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .social-media__box:not(:last-child) {
+          margin-right: 1.5rem; } }
   .social-media--icon {
     width: 5rem;
     height: auto; }
