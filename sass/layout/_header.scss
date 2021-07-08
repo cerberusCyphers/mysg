@@ -23,6 +23,14 @@
 
 	& img {
 		border-radius: 50%;
-		width: 8rem;
+		width: 15rem;
+
+		@media only screen and (max-width: $bp-md) {
+			width: 12rem;
+		}
+
+		@media only screen and (max-width: $bp-sm) {
+			width: 9rem;
+		}
 	}
 }
