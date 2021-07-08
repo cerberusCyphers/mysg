@@ -12,10 +12,18 @@
 	&__copy {
 		grid-column: 2 / 3;
 		justify-self: center;
+
+		@media only screen and (max-width: $bp-sm) {
+			grid-column: 1 / span 3;
+		}
 	}
 
 	&__link {
 		text-decoration: none;
 		color: $color-tertiary-medium;
+
+		&:hover {
+			color: $color-secondary-medium;
+		}
 	}
 }
